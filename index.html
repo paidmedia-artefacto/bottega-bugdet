@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bottega · Cierre de Presupuesto · Junio 2026</title>
+<style>
+  :root{
+    --primary:#432d9a; --accent:#4baea6; --muted:#929292;
+    --text:#262626; --bg:#FAFAFB; --border:#E4E2EC; --cream:#F4F2FA;
+    --bad:#9C3B34;
+  }
+  *{box-sizing:border-box;}
+  body{ margin:0; font-family:Arial, Helvetica, sans-serif; color:var(--text); background:var(--bg); text-align:left; }
+  header{ background:linear-gradient(135deg, var(--primary), #2c1d6b); color:#fff; padding:24px 32px; text-align:left; }
+  header .eyebrow{ color:#BFB4EA; font-size:12px; font-weight:bold; letter-spacing:1px; text-transform:uppercase; }
+  header h1{ margin:6px 0 4px; font-size:22px; text-align:left; }
+  header .sub{ color:#E4E0F5; font-size:13px; }
+
+  .wrap{ max-width:860px; margin:0; padding:26px 20px 50px; text-align:left; }
+
+  .block{ padding:20px 0; border-bottom:1px solid var(--border); text-align:left; }
+  .block:last-of-type{ border-bottom:none; }
+  .block h2{ margin:0 0 12px; font-size:16px; color:var(--primary); text-align:left; }
+
+  .stats{ display:flex; gap:20px; flex-wrap:wrap; margin-bottom:14px; padding:14px 16px; background:var(--cream); border-radius:8px; border-left:4px solid var(--accent); }
+  .stat .num{ font-size:18px; font-weight:bold; color:var(--primary); line-height:1.2; }
+  .stat .num.neg{ color:var(--bad); }
+  .stat .lbl{ font-size:11px; color:var(--muted); }
+
+  .block p{ font-size:17px; line-height:1.65; margin:0; color:var(--text); text-align:left; }
+  .block p b{ color:var(--primary); }
+
+  .total{ margin-top:10px; background:var(--primary); color:#fff; border-radius:8px; padding:20px 24px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; }
+  .total .tlbl{ font-size:14px; color:#E4E0F5; }
+  .total .tnum{ font-size:26px; font-weight:bold; }
+
+  footer{ text-align:left; color:var(--muted); font-size:11px; padding:20px 32px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Bottega · Presupuesto Always On</div>
+  <h1>Cierre de Presupuesto</h1>
+  <div class="sub">Junio 2026 · Presupuesto aprobado: $2,500</div>
+</header>
+
+<div class="wrap">
+
+  <div class="block">
+    <h2>Awareness</h2>
+    <div class="stats">
+      <div class="stat"><div class="num">$1,500.00</div><div class="lbl">Presupuesto</div></div>
+      <div class="stat"><div class="num">$1,516.68</div><div class="lbl">Gasto</div></div>
+      <div class="stat"><div class="num">101.11%</div><div class="lbl">Pacing</div></div>
+      <div class="stat"><div class="num neg">-$16.68</div><div class="lbl">Remanente</div></div>
+    </div>
+    <p>Las campañas de Brand Awareness en tiendas físicas mantuvieron un pacing sólido, entre <b>97.38%</b> (Tamarindo) y <b>103.59%</b> (Santa Verde) — la única tienda que superó su presupuesto de forma notoria este mes. Escazú (99.11%) y Nunciatura (98.97%) cerraron prácticamente alineadas a lo asignado. En conjunto, Awareness cerró con un consumo de 101.11% del presupuesto, dejando un remanente negativo de <b>-$16.68</b>.</p>
+  </div>
+
+  <div class="block">
+    <h2>Performance</h2>
+    <div class="stats">
+      <div class="stat"><div class="num">$1,000.00</div><div class="lbl">Presupuesto</div></div>
+      <div class="stat"><div class="num">$932.29</div><div class="lbl">Gasto</div></div>
+      <div class="stat"><div class="num">93.23%</div><div class="lbl">Pacing</div></div>
+      <div class="stat"><div class="num">$67.71</div><div class="lbl">Remanente</div></div>
+    </div>
+    <p>WhatsApp Corporativo tuvo un pacing sólido de <b>96.17%</b>. Las campañas de Website Traffic para Uber Eats mantuvieron una entrega muy estable entre <b>87.31%</b> y <b>87.62%</b> en las tres tiendas, con remanentes casi idénticos entre sí. Dentro de Sales, e-commerce alcanzó un pacing de 96.33%, mientras que Cata de Vinos concentró el mayor remanente del bloque ($35.27) con el ritmo de consumo más bajo del mes (76.49%). Search Ads cerró levemente por encima de lo asignado (101.11%), con un remanente de -$3.89. En conjunto, Performance cerró con un pacing de 93.23% y un remanente de <b>$67.71</b>.</p>
+  </div>
+
+  <div class="total">
+    <div class="tlbl">Remanente total general</div>
+    <div class="tnum">$51.03</div>
+  </div>
+
+</div>
+
+<footer>Bottega · Cierre de Presupuesto Always On · Junio 2026</footer>
+
+</body>
+</html>
